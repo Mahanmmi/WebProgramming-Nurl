@@ -1,0 +1,19 @@
+{
+  "name": "nurl",
+  "version": "1.0.0",
+  "description": "node curl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mahanmmi/WebProgramming-Nurl.git"
+  },
+  "author": "Mahan ZDH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahanmmi/WebProgramming-Nurl/issues"
+  },
+  "homepage": "https://github.com/Mahanmmi/WebProgramming-Nurl#readme"
+}
