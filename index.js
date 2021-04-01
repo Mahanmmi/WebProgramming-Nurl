@@ -135,7 +135,7 @@ function setupYargs() {
     describe: 'Timeout time in seconds',
     type: 'number'
   }).check(({ timeout }) => {
-    if(isNaN(timeout)) {
+    if(timeout !== undefined && isNaN(timeout)) {
       throw new Error(logERRORWrapper('Timeout must be a number'));
     }
     return true;
